@@ -34,7 +34,7 @@ docker pull srinivas42/jbpm-full-server-2024:latest
 To start a container from the image, use the following command:
 
 ```bash
-docker run -p 8080:8080 -p 9990:9990 -d --name jbpm-workbench srinivas42/jbpm-full-server-2024:latest
+docker run -p 8080:8080 -p 9990:9990 -d --name jbpm-server srinivas42/jbpm-full-server-2024:latest
 ```
 
 This command will run the container in detached mode and map the necessary ports:
