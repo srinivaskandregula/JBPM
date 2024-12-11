@@ -1,0 +1,18 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: JBPM/srinivas42
+    - name: JBPM
+      run: docker pull srinivas42/jbpm-full-server-2024:$(date +%s)
