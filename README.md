@@ -57,7 +57,7 @@ To manage the WildFly server, you will need to create a user to access the HA Co
 1. **Access the running container**:
 
    ```bash
-   docker exec -it <container_name_or_id> bash
+   docker exec -it <container_name_or_id> /bin/bash
    ```
 
 2. **Navigate to the WildFly directory**:
